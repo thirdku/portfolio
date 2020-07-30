@@ -1,12 +1,11 @@
 import { h, Component } from 'preact';
 import { Router } from 'preact-router';
-
+import style from './style.css'
 import Header from './header';
 import Body from './body';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
-import Profile from '../routes/profile';
 
 export default class App extends Component {
 	
@@ -17,9 +16,11 @@ export default class App extends Component {
 
 	render() {
 		return (
-			<div id="app">
+			<div id="app" class={style.app}>
 			<Header/>
-			<Body/>
+			<Router onChange={this.handleRoute}>
+					<Home path="/zome" />
+				</Router>
 			</div>
 		);
 	}

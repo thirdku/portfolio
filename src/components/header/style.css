@@ -1,6 +1,8 @@
 .header {
-padding: 35px 0;
+padding: 35px ;
 background-color: #eff4ff;
+float: left;
+width: 35%;
 }
 .div1 {
     margin: 0 auto;
@@ -10,8 +12,16 @@ background-color: #eff4ff;
 .h1 {
 	margin: 0;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 37px;
     color: #6772e5;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 27px;
+    line-height: 48px;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 27px;
+        display: block;
+
 }
 .p {
 	max-width: 500px;
@@ -51,3 +61,17 @@ a:hover::before {
 p{display: block;
     
    }
+   ul{list-style-type: none;}
+   .h6{font-size: 14px;
+    color: #919191;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 40px 0 15px 0;
+    display: block;
+    -webkit-letter-spacing: 1px;
+    -moz-letter-spacing: 1px;
+    -ms-letter-spacing: 1px;
+    letter-spacing: 1px;}
+    .ul1{
+      padding-left:-40;
+    }
