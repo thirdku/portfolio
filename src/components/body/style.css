@@ -1,0 +1,14 @@
+.body{
+    margin: 50px 0 70px 0;
+    display: block;
+}
+.div1{margin: 0 auto;
+    padding: 0 5px;
+    max-width: 1040px;
+}
+.heading{margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    color: #252525;}
+    h2 {
+    display: block;}
