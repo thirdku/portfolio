@@ -1,22 +1,23 @@
 .header {
 padding: 35px ;
-background-color: #eff4ff;
+background-color: white;
 float: left;
-width: 35%;
+width: 30%;
+padding-top: 50px;
+padding-left: 50px;
+height :200%;
+
 }
 .div1 {
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 25px;
     max-width: 1040px;
 }
 .h1 {
-	margin: 0;
-    font-weight: 400;
-    font-size: 37px;
-    color: #6772e5;
-    text-align: left;
+	text-align: left;
     margin-top: 0;
     margin-bottom: 27px;
+    font-size: 34px;
     line-height: 48px;
     border-bottom: 3px solid #eee;
     padding-bottom: 27px;
@@ -61,7 +62,9 @@ a:hover::before {
 p{display: block;
     
    }
-   ul{list-style-type: none;}
+   ul{list-style-type: none;
+     padding:0;
+   }
    .h6{font-size: 14px;
     color: #919191;
     text-transform: uppercase;
@@ -75,3 +78,4 @@ p{display: block;
     .ul1{
       padding-left:-40;
     }
+    div{display:block;}

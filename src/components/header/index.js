@@ -32,7 +32,7 @@ const Header = () => (
 
 <h6 class={style.h6}>projects</h6>
 
-<ul class={style.ul1}><li><Link href="/zome">profiledd</Link></li><li><Link href="/jobb">jobb</Link></li></ul>
+<ul><li><Link href="/zome">profiledd</Link></li><li><Link href="/jobb">jobb</Link></li></ul>
 
 </li>
 </ul>
