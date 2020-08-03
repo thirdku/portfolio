@@ -1,4 +1,4 @@
-.project {
+.about {
 width: 65%;
     padding: 70px;
     margin-left: 38%;
@@ -14,4 +14,7 @@ width: 65%;
     .img { 
 	max-width: 500px;
 	max-height: 500px;
+	}
+	.title{ 
+	    padding-left: 15px;
 	}

@@ -2,9 +2,9 @@
 padding: 35px ;
 background-color: white;
 float: left;
-width: 30%;
+width: 38%;
 padding-top: 50px;
-padding-left: 50px;
+padding-left: 140px;
 height :200%;
 
 }
@@ -35,7 +35,7 @@ height :200%;
 	:any-link {
     cursor: pointer;
     text-decoration: none;
-    color: #6772e5;
+    color: black;
     position: relative;
     white-space: nowrap;
 
@@ -79,3 +79,6 @@ p{display: block;
       padding-left:-40;
     }
     div{display:block;}
+    .ul1{
+    padding-top: 8px;
+    }

@@ -2,7 +2,7 @@
    {
       "title":"Project 1",
       "date":"new date()",
-      "paragraph":"sadasdsdas",
+      "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dui dolor, dictum a feugiat a, luctus sed ante. Integer dui metus, accumsan sed urna nec, vulputate egestas leo. Nulla lacinia tincidunt ipsum vel sagittis. Vivamus eu enim justo. Cras imperdiet vitae diam nec maximus. Aenean justo orci, maximus volutpat nibh et, dapibus placerat tellus. Ut vehicula, mauris et accumsan volutpat, libero ligula interdum nulla, sed vehicula orci elit non magna. Nullam nunc lacus, rhoncus ut venenatis sodales, maximus in augue. Praesent quis congue dui. In sed ante mauris. Praesent imperdiet libero velit, non rutrum mauris suscipit et. ",
       "images":[
          "http://i.redd.it/x917xbcm2zv31.jpg",
          "https://c.pxhere.com/images/5b/9a/69277238603785e61b8d0ef790fd-1567591.jpg!d",
@@ -12,20 +12,20 @@
    {
       "title":"Project 2",
       "date":"new date()",
-      "paragraph":"STDUAWSAD",
+      "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dui dolor, dictum a feugiat a, luctus sed ante. Integer dui metus, accumsan sed urna nec, vulputate egestas leo. Nulla lacinia tincidunt ipsum vel sagittis. Vivamus eu enim justo. Cras imperdiet vitae diam nec maximus. Aenean justo orci, maximus volutpat nibh et, dapibus placerat tellus. Ut vehicula, mauris et accumsan volutpat, libero ligula interdum nulla, sed vehicula orci elit non magna. Nullam nunc lacus, rhoncus ut venenatis sodales, maximus in augue. Praesent quis congue dui. In sed ante mauris. Praesent imperdiet libero velit, non rutrum mauris suscipit et.",
       "images":[
          "http://.com/",
-         "http://.com/",
+         "https://www.pngkey.com/png/detail/173-1737733_wojak-clown.png",
          "http://.com/"
       ]
    },
    {
       "title":"Project 3",
       "date":"new date()",
-      "paragraph":"DADDWDY",
+      "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dui dolor, dictum a feugiat a, luctus sed ante. Integer dui metus, accumsan sed urna nec, vulputate egestas leo. Nulla lacinia tincidunt ipsum vel sagittis. Vivamus eu enim justo. Cras imperdiet vitae diam nec maximus. Aenean justo orci, maximus volutpat nibh et, dapibus placerat tellus. Ut vehicula, mauris et accumsan volutpat, libero ligula interdum nulla, sed vehicula orci elit non magna. Nullam nunc lacus, rhoncus ut venenatis sodales, maximus in augue. Praesent quis congue dui. In sed ante mauris. Praesent imperdiet libero velit, non rutrum mauris suscipit et.",
       "images":[
          "http://.com/",
-         "http://.com/",
+         "https://www.pandotrip.com/wp-content/uploads/2018/03/Jog-Falls-in-Karnataka-India-during-the-monsoon-season.jpg",
          "http://.com/"
       ]
    }

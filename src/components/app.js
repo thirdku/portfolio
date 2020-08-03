@@ -7,6 +7,7 @@ import Body from './body';
 // Code-splitting is automated for routes
 import Home from '../routes/home';
 import Project from '../routes/project';
+import About from '../routes/about';
 
 export default class App extends Component {
 	
@@ -22,6 +23,7 @@ export default class App extends Component {
 			 <Router onChange={this.handleRoute}>
 			  <Home path="/" />
 			   <Project path="/project/:project" />
+			   <About path="/aboutus/:aboutus" />
 			 </Router>
 			</div>
 		);
