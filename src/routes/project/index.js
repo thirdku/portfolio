@@ -16,7 +16,7 @@ export default class Project extends Component {
                  projectData[d].date
                 }
               </p>
-		      <h1>
+		      <h1 class={style.head}>
 		        {
 		         projectData[d].title
 		      	}

@@ -9,14 +9,14 @@ export default class aboutus extends Component {
 	render({ aboutus }) { const dad = [{aboutus}];  const s = dad[0].aboutus + ""; const d = parseInt(s);
 		return (
 			<div class={style.about}>{console.log(aboutUs[d].images[1])}
-		      <h1>
-		       <a href={aboutUs[d].link} target="_blank">
+		      <h1 class={style.head}>
+		       <a class={style.a}href={aboutUs[d].link} target="_blank">
 		        {
 		         aboutUs[d].name
 		      	}
 		      	</a>
 		      </h1>
-		      <p class={style.title}>
+		      <p class={style.head}>
 		       {
 		        aboutUs[d].title
 		       }

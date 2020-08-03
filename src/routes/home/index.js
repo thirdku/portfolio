@@ -1,9 +1,11 @@
 import { h } from 'preact';
-import style from './style';
+import style from './style.css';
 import ccat from './ccat.jpg';
 const Home = () => (
 	<div class={style.home}>
-	 <h1>Home</h1>
+	 <h1 class={style.head}>
+	  Home
+	 </h1>
 	 <div class={style.content}>
 	  <p>
 	   This is the Home component.

@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Cardo|Carrois+Gothic+SC&display=swap');
 .header {
 padding: 35px ;
-background-color: white;
+background-color: #5CDB95;
 float: left;
-width: 38%;
+width: 35%;
 padding-top: 50px;
-padding-left: 140px;
+padding-left: 100px;
 height :200%;
 
 }
 .div1 {
     margin: 0 auto;
     padding: 0 25px;
-    max-width: 1040px;
+    max-width: 500px;
 }
 .h1 {
 	text-align: left;
@@ -19,29 +21,33 @@ height :200%;
     margin-bottom: 27px;
     font-size: 34px;
     line-height: 48px;
-    border-bottom: 3px solid #eee;
+    border-bottom: 3px solid #8EE4AF;
     padding-bottom: 27px;
         display: block;
+        font-family: 'Poppins', sans-serif;
+        color: #EDF5E1;
+        
 
 }
 .p {
 	max-width: 500px;
     margin: 15px 0 10px 0;
-    font-size: 20px;
-    color: #798fb5;
+    font-size: 16px;
+    color: #05386B;
     line-height: 1.7;
+    font-family: 'Lato', sans-serif;
 }
 
 	:any-link {
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: #EDF5E1;
     position: relative;
     white-space: nowrap;
 
 }
 a:hover {
-  color: #000;
+  color: #05386B;
 }
 a::before {
   content: "";
@@ -66,7 +72,7 @@ p{display: block;
      padding:0;
    }
    .h6{font-size: 14px;
-    color: #919191;
+    color: #05386B;
     text-transform: uppercase;
     font-weight: bold;
     margin: 40px 0 15px 0;
@@ -80,5 +86,5 @@ p{display: block;
     }
     div{display:block;}
     .ul1{
-    padding-top: 8px;
-    }
+    padding-top: 4px;
+font-family: 'Lato', sans-serif;    }
