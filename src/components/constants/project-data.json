@@ -1,16 +1,16 @@
 [
    {
-      "title":"Project1",
+      "title":"Project 1",
       "date":"new date()",
       "paragraph":"sadasdsdas",
       "images":[
-         "http://.com/",
-         "http://.com/",
-         "http://.com/"
+         "http://i.redd.it/x917xbcm2zv31.jpg",
+         "https://c.pxhere.com/images/5b/9a/69277238603785e61b8d0ef790fd-1567591.jpg!d",
+         "https://c.pxhere.com/images/5b/9a/69277238603785e61b8d0ef790fd-1567591.jpg!d"
       ]
    },
    {
-      "title":"Project2",
+      "title":"Project 2",
       "date":"new date()",
       "paragraph":"STDUAWSAD",
       "images":[
@@ -20,7 +20,7 @@
       ]
    },
    {
-      "title":"Project3",
+      "title":"Project 3",
       "date":"new date()",
       "paragraph":"DADDWDY",
       "images":[

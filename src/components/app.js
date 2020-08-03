@@ -18,11 +18,11 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="app" class={style.app}>
-			<Header/>
-			<Router onChange={this.handleRoute}>
-					<Home path="/zome" />
-					<Project path="/project/:project" />
-			</Router>
+			 <Header/>
+			 <Router onChange={this.handleRoute}>
+			  <Home path="/" />
+			   <Project path="/project/:project" />
+			 </Router>
 			</div>
 		);
 	}
