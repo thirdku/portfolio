@@ -8,11 +8,11 @@ const Header = () => (
 	<header class={style.header}>
      <div class={style.div1}>
       <div>
-	   <h1 class={style.h1}> 
-	    <Link href="/">
-	     ShepherdLabs
-	    </Link>
-	   </h1>
+	      <Link href="/">
+	       <h1 class={style.h1}>
+	        ShepherdLabs
+	       </h1>
+	      </Link>
 	   <div>
 	    <p class={style.p}> 
     	  I'm a young entrepreneur & Full-stack Developer from USA. You can find me on 
@@ -27,8 +27,13 @@ const Header = () => (
 	    </p>
         </p>
        </div>
-     <nav>
-      <ul>
+     <nav class={style.nav}>
+      <input type="checkbox" id="menu-check" class={style.input1}></input>
+      <label id="label-check" for="menu-check"class={style.label}>
+       <span class={style.close}>✕</span>
+       <span class={style.open}>☰</span>
+      </label>
+      <ul class={style.ul}>
        <li>
         <h6 class={style.h6}>
          projects
@@ -90,10 +95,8 @@ const Header = () => (
          </h6>
          <ul class={style.ul1}>
           <li>
-           <Link href="/project/0">
-           {
-            projectData[0].title
-           }
+           <Link href="/contact">
+           Contact
            </Link>
           </li>
          </ul>

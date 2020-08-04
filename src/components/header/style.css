@@ -1,19 +1,36 @@
+
 @import url('https://fonts.googleapis.com/css?family=Lato|Poppins');
 @import url('https://fonts.googleapis.com/css?family=Cardo|Carrois+Gothic+SC&display=swap');
+
 .header {
 padding: 35px ;
-background-color: #5CDB95;
+background-color: black ;
 float: left;
 width: 35%;
+min-width : 300px;
 padding-top: 50px;
 padding-left: 100px;
 height :200%;
-
 }
+@media  (max-width: 1050px) {
+  .header{
+    width: auto;
+    float: none;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 95%;
+    background: black;
+    height :auto;
+    }
+    
+}
+
+
+
 .div1 {
     margin: 0 auto;
     padding: 0 25px;
-    max-width: 500px;
+    max-width: 1050px;
 }
 .h1 {
 	text-align: left;
@@ -21,19 +38,23 @@ height :200%;
     margin-bottom: 27px;
     font-size: 34px;
     line-height: 48px;
-    border-bottom: 3px solid #8EE4AF;
+    border-bottom: 3px solid #464866  ;
     padding-bottom: 27px;
         display: block;
         font-family: 'Poppins', sans-serif;
-        color: #EDF5E1;
-        
+        color: #fff ;
+        }
+@media (max-width:1050px){
+  .h1{
+    text-align:center;
+  }
 
 }
 .p {
-	max-width: 500px;
+	max-width: 1050px;
     margin: 15px 0 10px 0;
     font-size: 16px;
-    color: #05386B;
+    color: #2E9CCA  ;
     line-height: 1.7;
     font-family: 'Lato', sans-serif;
 }
@@ -41,13 +62,13 @@ height :200%;
 	:any-link {
     cursor: pointer;
     text-decoration: none;
-    color: #EDF5E1;
+    color: #fff ;
     position: relative;
     white-space: nowrap;
 
 }
 a:hover {
-  color: #05386B;
+  color: #AAABB8 ;
 }
 a::before {
   content: "";
@@ -56,7 +77,7 @@ a::before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #AAABB8 ;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -72,7 +93,7 @@ p{display: block;
      padding:0;
    }
    .h6{font-size: 14px;
-    color: #05386B;
+    color: #29648A ;
     text-transform: uppercase;
     font-weight: bold;
     margin: 40px 0 15px 0;
@@ -88,3 +109,46 @@ p{display: block;
     .ul1{
     padding-top: 4px;
 font-family: 'Lato', sans-serif;    }
+.label{display:none;}
+@media (max-width:1050px){
+  .label{
+    display: inline-block;
+    padding: 0 20px;
+    height: 50px;
+    border: 1px solid;
+    cursor: pointer;
+    line-height: 50px;
+    color: #333;
+    font-size: 20px;
+}}
+
+@media (max-width:1050px){
+  .ul{display:none;}
+}
+
+.input1{display:none;}
+.open{display:block;}
+.close{display:none;}
+@media (max-width:1050px){
+.input1:checked ~ .ul {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin: 20px -20px -20px -20px;
+    border: 10px solid #f5f5f5;
+    padding: 20px;
+} 
+
+  
+}
+
+@media (max-width:1050px){
+.input1:checked ~ .open {
+    display: none;
+   
+}}
+@media (max-width:1050px){
+.input1:checked ~ .close {
+ display: inline-block;;
+}}
+

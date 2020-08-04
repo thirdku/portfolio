@@ -16,7 +16,7 @@ export default class aboutus extends Component {
 		      	}
 		      	</a>
 		      </h1>
-		      <p class={style.head}>
+		      <p class={style.title}>
 		       {
 		        aboutUs[d].title
 		       }

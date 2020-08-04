@@ -4,13 +4,29 @@
 width: 65%;
     padding: 70px;
     margin-left: 35%;
-    border-left: 1px solid #379683;
+    border-left: 1px solid #464866 ;
     min-height: 100vh;
 }
+@media  (max-width: 1050px) {
+    .project
+{
+    width: auto;
+    padding: 20px 20px;
+    margin-left: 0;
+    border-left: none;
+    min-height: auto;
+    border-top: 10px solid black;
+}}
 .head {
-font-family: 'Heebo', sans-serif;}
+font-size: 45px;
+    font-family: "Montserrat-Bold";
+    border-bottom: 2px solid #2E9CCA ;
+}
 .content {
-font-family: 'Oswald', sans-serif;line-height: 1.75;}
+font-family: 'Oswald', sans-serif;line-height: 1.75;
+        border-bottom: 2px solid #2E9CCA ;
+
+}
     .date{font-size: 12px;
     color: #999;
     margin: 0;}

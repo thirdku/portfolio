@@ -8,6 +8,7 @@ import Body from './body';
 import Home from '../routes/home';
 import Project from '../routes/project';
 import About from '../routes/about';
+import Contact from '../routes/contact';
 
 export default class App extends Component {
 	
@@ -24,6 +25,7 @@ export default class App extends Component {
 			  <Home path="/" />
 			   <Project path="/project/:project" />
 			   <About path="/aboutus/:aboutus" />
+			   <Contact path="/contact" />
 			 </Router>
 			</div>
 		);
