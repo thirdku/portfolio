@@ -10,7 +10,7 @@ width: 35%;
 min-width : 300px;
 padding-top: 50px;
 padding-left: 100px;
-height :200%;
+height :160%;
 }
 @media  (max-width: 1050px) {
   .header{
@@ -93,7 +93,7 @@ p{display: block;
      padding:0;
    }
    .h6{font-size: 14px;
-    color: #29648A ;
+    color: #2E9CCA ;
     text-transform: uppercase;
     font-weight: bold;
     margin: 40px 0 15px 0;
@@ -121,7 +121,9 @@ font-family: 'Lato', sans-serif;    }
     color: #333;
     font-size: 20px;
 }}
-
+.nav{border-bottom: 3px solid #464866;
+  padding-bottom: 10px;
+}
 @media (max-width:1050px){
   .ul{display:none;}
 }

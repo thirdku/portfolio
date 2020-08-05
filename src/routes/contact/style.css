@@ -3,14 +3,14 @@
     font-family: "Montserrat-Bold";
     text-align: center;
     margin-bottom: 12px;
-    color: #25274D    ;
+    color: white    ;
 }
 .p{
-    text-align: center;
+    text-align: left;
     padding: 0 10px;
     margin-bottom: 55px;
     line-height: 1.8;
-    color:#25274D ;
+    color:#fff ;
 }
 .label{
     position: relative;
@@ -29,12 +29,14 @@
 .text  {
     border: none;
     border-bottom: 2px solid #00ade6;
+    
     display: block;
     width: 100%;
     height: 43px;
     font-size: 15px;
     background: none;
     font-family: "Montserrat-SemiBold";
+    color:white;
 }
 .text:focus + span, .text:valid + span{
     transform: translateY(-25px) scale(0.8);
@@ -57,9 +59,11 @@
 width: 65%;
     padding: 70px;
     margin-left: 35%;
-    border-left: 1px solid #379683;
+    border-left: 1px solid #464866;
     min-height: 100vh;
-    height: 200%;
+    height: 160%;
+    background-color:black;
+    
 }
 @media  (max-width: 1050px) {
     .contact
@@ -81,11 +85,11 @@ width: 65%;
     padding: .75em;
     width: 162px;
     height: 51px;
-    border: 2px solid  black ;
+    border: 2px solid  white ;
     text-transform: uppercase;
-    color:black;
+    color:white;
     font-family: "Montserrat-SemiBold";
-  background: linear-gradient(to right, #25274D , #25274D );
+  background: linear-gradient(to right, #0d99d7 , #0d99d7 );
   background-repeat: no-repeat;
   background-size: 0 100%;
   transition: background-size 0.5s 0s;
@@ -95,7 +99,28 @@ width: 65%;
     color:#fff;
     border:none
 }
-.form{
-    border-bottom: 2px solid #2E9CCA ;
-        border-top: 2px solid #2E9CCA ;
+
+
+.background{
+    max-width: 758px;
+    margin: auto;
+    background: #000  ;
+    border: 10px solid #0d99d7;
+    padding: 50px 99px 87px;}
+    .textarea  {
+    border: none;
+    border-bottom: 2px solid #00ade6;
+    
+    display: block;
+    width: 100%;
+    height: 70px;
+    font-size: 15px;
+    background: none;
+    font-family: "Montserrat-SemiBold";
+    color:white;
+}
+.textarea:focus + span, .text:valid + span{
+    transform: translateY(-25px) scale(0.8);
+}
+.textarea:focus {    border-bottom: 2px solid #fff;
 }

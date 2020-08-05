@@ -4,6 +4,7 @@ import style from './style.css'
 import Header from './header';
 import Body from './body';
 
+
 // Code-splitting is automated for routes
 import Home from '../routes/home';
 import Project from '../routes/project';
@@ -24,7 +25,6 @@ export default class App extends Component {
 			 <Router onChange={this.handleRoute}>
 			  <Home path="/" />
 			   <Project path="/project/:project" />
-			   <About path="/aboutus/:aboutus" />
 			   <Contact path="/contact" />
 			 </Router>
 			</div>

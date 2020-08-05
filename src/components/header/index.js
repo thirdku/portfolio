@@ -17,10 +17,8 @@ const Header = () => (
 	    <p class={style.p}> 
     	  I'm a young entrepreneur & Full-stack Developer from USA. You can find me on 
     	<p>
-	     <a  href="https://twitter.com/lukaszmtw" target="_blank">
-	      Twitter
-	     </a> • <a href="https://instagram.com/tookbyluke" target="_blank">
-	       Instagram
+	     <a  href="https://www.linkedin.com/in/thomas-shepherd-00a6a0183/?originalSubdomain=th" target="_blank">
+	      Linkedin
 	     </a> • <a href="https://github.com/FeiShepherd" target="_blank">
 	       GitHub
 	     </a>
@@ -65,29 +63,6 @@ const Header = () => (
           </Link>
          </li>
         </ul>
-        </li>
-        <li>
-         <h6 class={style.h6}>
-          About us
-         </h6>
-         <ul class={style.ul1}>
-          <li>
-           <Link href="/aboutus/0">
-           {
-            aboutUs[0].title
-           }
-           </Link>
-          </li>
-         </ul>
-         <ul class={style.ul1}>
-          <li>
-           <Link href="/aboutus/1">
-           {
-            aboutUs[1].title
-           }
-           </Link>
-          </li>
-         </ul>
         </li>
         <li>
          <h6 class={style.h6}>

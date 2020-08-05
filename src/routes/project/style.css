@@ -6,6 +6,7 @@ width: 65%;
     margin-left: 35%;
     border-left: 1px solid #464866 ;
     min-height: 100vh;
+    height: 160%;
 }
 @media  (max-width: 1050px) {
     .project
