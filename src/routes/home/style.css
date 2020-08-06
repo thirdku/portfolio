@@ -54,3 +54,11 @@ line-height: 1.75;
     padding-top:50px;
     border-top: 3px solid #2E9CCA;
 }
+.carousel{
+    width: 300px;
+    height: 300px;
+    
+}
+.alice{
+    width:50px;
+}

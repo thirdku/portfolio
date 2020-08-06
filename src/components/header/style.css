@@ -154,6 +154,14 @@ font-family: 'Lato', sans-serif;    }
  display: inline-block;;
 }}
 
-.icon{width:36px;
-  height:36px;
+.icon{width:25px;
+  height:25px;
+  margin-right:10px;
+ border-radius: 10px;  
+ margin-top: 15px;
+}
+.social{
+}
+@media (max-width:1050px){
+  .paragraph{text-align:left;}
 }

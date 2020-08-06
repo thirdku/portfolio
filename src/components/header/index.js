@@ -16,18 +16,15 @@ const Header = () => (
 	        ShepherdLabs
 	       </h1>
 	      </Link>
-	   <div>
+	   <div class={style.paragraph}>
 	    <p class={style.p}> 
     	  I'm a young entrepreneur & Full-stack Developer from USA. You can find me on
     	  </p>
-    	  <ul class={style.ul}>
+    	  <ul class={style.ul3}>
        <li>
-       <h6 class={style.h6}>
-       Contacts
-       </h6>
        <ul class={style.ul1}>
         <li>  
-        <a  href="https://www.linkedin.com/in/thomas-shepherd-00a6a0183/?originalSubdomain=th" target="_blank">
+        <a class={style.social}  href="https://www.linkedin.com/in/thomas-shepherd-00a6a0183/?originalSubdomain=th" target="_blank">
         <img class={style.icon} src={linkedin} />
 	        
 	         Linkedin
@@ -36,7 +33,7 @@ const Header = () => (
        </ul>
 	      <ul class={style.ul1}>
         <li>
-        <a href="https://github.com/FeiShepherd" target="_blank">
+        <a class={style.social} href="https://github.com/FeiShepherd" target="_blank">
         <img class={style.icon} src={github} />
 	        
 	         GitHub
@@ -45,7 +42,7 @@ const Header = () => (
        </ul>
 	      <ul class={style.ul1}>
         <li>
-        <a href="mailto:sakulwongs@gmail.com" target="_blank">
+        <a class={style.social} href="mailto:sakulwongs@gmail.com" target="_blank">
         <img class={style.icon} src={email} />
 	        
 	         Email
@@ -64,7 +61,7 @@ const Header = () => (
       <ul class={style.ul}>
        <li>
         <h6 class={style.h6}>
-         works
+         work
         </h6>
         <ul class={style.ul1}>
          <li>
@@ -100,7 +97,7 @@ const Header = () => (
          <ul class={style.ul1}>
           <li>
            <Link href="/contact">
-           Contact
+           Contact Us
            </Link>
           </li>
          </ul>

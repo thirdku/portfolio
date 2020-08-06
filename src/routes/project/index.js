@@ -1,7 +1,6 @@
-import React ,{Component} from 'react';
-import { render } from 'react-dom';
+import React ,{Component} from 'preact/compat';
+import { render } from 'preact/compat';
 import style from './style.css';
-
 const projectData = require('../../components/constants/project-data.json')
 const aboutUs = require('../../components/constants/about-us.json')
 
@@ -33,7 +32,7 @@ export default class Project extends Component {
 		       
               </div>
               <div class={style.projects}>
-	  <h3>Recent Projects</h3>
+	  <h3>Recent Work</h3>
 	  <ul>
 	  <li class={style.li1}>
 	  <a class={style.a1} href="/project/0">

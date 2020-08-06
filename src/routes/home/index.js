@@ -4,6 +4,9 @@ import ccat from '../../components/constants/ccat.jpg'
 import wojak from '../../components/constants/wojak.jpg'
 import wojak2 from '../../components/constants/wojak2.png'
 import wojak3 from '../../components/constants/wojak3.jpg'
+import Gallery from './carousel.js' 
+
+
 const projectData = require('../../components/constants/project-data.json')
 
 const Home = () => (
@@ -12,18 +15,18 @@ const Home = () => (
 	  Home
 	 </h1>
 	 <div class={style.content}>
-	
+	<Gallery/>
 	  <p>
 	   This is the Home component.
 	  </p>
 	  
 	  <p>
-	   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dui dolor, dictum a feugiat a, luctus sed ante. Integer dui metus, accumsan sed urna nec, vulputate egestas leo. Nulla lacinia tincidunt ipsum vel sagittis. Vivamus eu enim justo. Cras imperdiet vitae diam nec maximus. Aenean justo orci, maximus volutpat nibh et, dapibus placerat tellus. Ut vehicula, mauris et accumsan volutpat, libero ligula interdum nulla, sed vehicula orci elit non magna. Nullam nunc lacus, rhoncus ut venenatis sodales, maximus in augue. Praesent quis congue dui. In sed ante mauris. Praesent imperdiet libero velit, non rutrum mauris suscipit et. 
+	   Lorem ipsum dolor sit amet, consectetur adipiscing es suscipit et. 
 	  </p>
 	  
 	 </div>
 	 <div class={style.projects}>
-	  <h3>Recent Projects</h3>
+	  <h3>Recent Work</h3>
 	  <ul>
 	  <li class={style.li1}>
 	  <a class={style.a1} href="/project/0">
