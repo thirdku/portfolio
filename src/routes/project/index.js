@@ -74,5 +74,4 @@ export default class Project extends Component {
 		);
 	}
 }
-render(<Project />, document.getElementById('root'))
 
