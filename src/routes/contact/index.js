@@ -10,6 +10,7 @@ this.state = {
       email: "",
       phone: "",
       message:"",
+      text:"SUBMIT",
     };
     
   }
@@ -45,11 +46,12 @@ this.setState({ [name]: value });
       email: "",
       phone: "",
       message:"",
+      text:"SENT"
     });
   }
   
 	// Note: `user` comes from the URL, courtesy of our router
-	render() { 
+	render() { const { text } = this.state //destucture state
 		return (
      <div class={style.contact}>
      <div class={style.background}>
@@ -98,7 +100,6 @@ this.setState({ [name]: value });
        </label>
        <label class={style.label}>
         <textarea 
-        col="5"
         type="text" 
         class={style.textarea} 
         required 
@@ -110,8 +111,9 @@ this.setState({ [name]: value });
         <span class={style.border}></span>
        </label>
        <button class={style.button}
-       onClick={this.sendMessage.bind(this)}>
-        Submit
+       onClick={this.sendMessage.bind(this)}
+       >
+        {text}
        </button>
       </form>
       </div>

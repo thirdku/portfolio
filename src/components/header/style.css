@@ -10,7 +10,7 @@ width: 35%;
 min-width : 300px;
 padding-top: 50px;
 padding-left: 100px;
-height :160%;
+height :175%;
 }
 @media  (max-width: 1050px) {
   .header{
@@ -154,3 +154,6 @@ font-family: 'Lato', sans-serif;    }
  display: inline-block;;
 }}
 
+.icon{width:36px;
+  height:36px;
+}

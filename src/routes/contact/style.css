@@ -62,7 +62,7 @@ width: 65%;
     border-left: 1px solid #464866;
     min-height: 100vh;
     height: 160%;
-    background-color:black;
+    background-color:#fff;
     
 }
 @media  (max-width: 1050px) {
@@ -99,6 +99,8 @@ width: 65%;
     color:#fff;
     border:none
 }
+.button:focus { background-color: #464866;
+}
 
 
 .background{
@@ -119,7 +121,7 @@ width: 65%;
     font-family: "Montserrat-SemiBold";
     color:white;
 }
-.textarea:focus + span, .text:valid + span{
+.textarea:focus + span, .textarea:valid + span{
     transform: translateY(-25px) scale(0.8);
 }
 .textarea:focus {    border-bottom: 2px solid #fff;

@@ -1,22 +1,18 @@
-import { h } from 'preact';
+import { h, Component, render } from 'preact';
 import style from './style.css';
-import ccat from './ccat.jpg';
-import wojak from './wojak.jpg';
-import wojak3 from './wojak3.jpg';
-
+import ccat from '../../components/constants/ccat.jpg'
+import wojak from '../../components/constants/wojak.jpg'
+import wojak2 from '../../components/constants/wojak2.png'
+import wojak3 from '../../components/constants/wojak3.jpg'
 const projectData = require('../../components/constants/project-data.json')
-const customDescriptionStyles = {
-  right: 0,
-  opacity: 0.6,
-  transform: 'translateX(100%)'
-};
+
 const Home = () => (
 	<div class={style.home}>
 	 <h1 class={style.head}>
 	  Home
 	 </h1>
 	 <div class={style.content}>
-	 
+	
 	  <p>
 	   This is the Home component.
 	  </p>
@@ -28,24 +24,42 @@ const Home = () => (
 	 </div>
 	 <div class={style.projects}>
 	  <h3>Recent Projects</h3>
-	  <p>
+	  <ul>
+	  <li class={style.li1}>
+	  <a class={style.a1} href="/project/0">
+	  <img class={style.img}src={projectData[0].images[1]}/>
+	  </a>
 	  <a class={style.a}href="/project/0">
         {
          projectData[0].title
         }
-      </a>,
+      </a>
+      <p class={style.p1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+      <li class={style.li1}>
+      <a class={style.a1}href="/project/1">
+      <img class={style.img}src={projectData[1].images[1]}/>
+	  </a>
         <a class={style.a} href="/project/1">
         {
          projectData[1].title
         }
-      </a>,
+      </a>
+      <p class={style.p1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+      <li class={style.li1}>
+      <a class={style.a1}href="/project/2">
+      <img class={style.img}src={projectData[2].images[1]}/>
+	  </a>
       <a class={style.a} href="/project/2">
         {
          projectData[2].title
         }
       </a>
-      </p>
-      </div>
+      <p class={style.p1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+     </ul>
+    </div>
       
 	</div>
 );

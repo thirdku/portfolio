@@ -1,6 +1,9 @@
 import { h } from 'preact';
 import { Link } from 'preact-router/match';
 import style from './style.css';
+import linkedin from './Linkedin1.png'
+import github from './GitHub2.png'
+import email from './Email2.png'
 const projectData = require('../constants/project-data.json')
 const aboutUs = require('../constants/about-us.json')
 const Header = () => (
@@ -15,15 +18,42 @@ const Header = () => (
 	      </Link>
 	   <div>
 	    <p class={style.p}> 
-    	  I'm a young entrepreneur & Full-stack Developer from USA. You can find me on 
-    	<p>
-	     <a  href="https://www.linkedin.com/in/thomas-shepherd-00a6a0183/?originalSubdomain=th" target="_blank">
-	      Linkedin
-	     </a> • <a href="https://github.com/FeiShepherd" target="_blank">
-	       GitHub
-	     </a>
-	    </p>
-        </p>
+    	  I'm a young entrepreneur & Full-stack Developer from USA. You can find me on
+    	  </p>
+    	  <ul class={style.ul}>
+       <li>
+       <h6 class={style.h6}>
+       Contacts
+       </h6>
+       <ul class={style.ul1}>
+        <li>  
+        <a  href="https://www.linkedin.com/in/thomas-shepherd-00a6a0183/?originalSubdomain=th" target="_blank">
+        <img class={style.icon} src={linkedin} />
+	        
+	         Linkedin
+	        </a>
+	       </li>
+       </ul>
+	      <ul class={style.ul1}>
+        <li>
+        <a href="https://github.com/FeiShepherd" target="_blank">
+        <img class={style.icon} src={github} />
+	        
+	         GitHub
+	        </a>
+	       </li>
+       </ul>
+	      <ul class={style.ul1}>
+        <li>
+        <a href="mailto:sakulwongs@gmail.com" target="_blank">
+        <img class={style.icon} src={email} />
+	        
+	         Email
+	        </a>
+	       </li>
+       </ul>
+      </li>
+      </ul>
        </div>
      <nav class={style.nav}>
       <input type="checkbox" id="menu-check" class={style.input1}></input>
@@ -34,7 +64,7 @@ const Header = () => (
       <ul class={style.ul}>
        <li>
         <h6 class={style.h6}>
-         projects
+         works
         </h6>
         <ul class={style.ul1}>
          <li>
@@ -66,7 +96,6 @@ const Header = () => (
         </li>
         <li>
          <h6 class={style.h6}>
-          Work
          </h6>
          <ul class={style.ul1}>
           <li>

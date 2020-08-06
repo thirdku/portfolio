@@ -5,7 +5,7 @@ width: 65%;
     margin-left: 35%;
     border-left: 1px solid #464866 ;
     min-height: 100vh;
-    height:160%;
+    height:175%;
 }
 @media  (max-width: 1050px) {
     .home
@@ -28,11 +28,28 @@ line-height: 1.75;
     color:#000 ;
     
 }
-    .img { 
-	max-width: 500px;
-	max-height: 300px;
-	}
-.a{color:black;}
+    .img {
+  padding: 5px;
+  width: 100px;
+  margin-top:-10px;
+}
+.a{font-size: 12px;
+    color: #2E9CCA ;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left:100px;
+}
+
+.a1{position:absolute;
+    float:left;
+    
+}
+.li1{margin-bottom:30px;
+    padding-top: 10px;
+}
+.p1{margin-left :100px;
+    font-size: 10px;
+}
 .projects{ margin-top:50px;
     padding-top:50px;
     border-top: 3px solid #2E9CCA;
